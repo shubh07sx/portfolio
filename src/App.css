@@ -68,11 +68,6 @@
   display: inline;
 }
 
-/* .back-video{
-  overflow: auto;
-  max-height: 100vh; 
-} */
-
 .content{
   z-index: 2;
   position: relative;

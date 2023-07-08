@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, ScrollView } from "react";
+import React, { useEffect, useRef } from "react";
 import "../ResumeSection.css";
 import javaLogo from "../images/java.png";
 import springLogo from "../images/spring.png";
@@ -10,31 +10,10 @@ import reactLogo from "../images/react.png";
 import jenkinsLogo from "../images/jenkins.png";
 import linkedinLogo from "../images/linkedin.png";
 import githubLogo from "../images/github.png";
-import origami from "../images/origami2.webp";
-import dsa from "../images/dsa.png";
-import travel from "../images/travel.png";
-import backgroundLImage from "../images/backgroundImage.jpg";
 import Typed from "typed.js";
 import { Helmet } from "react-helmet";
 
 const ResumeSection = () => {
-  // const typedRef = useRef(null);
-
-  // useEffect(() => {
-  //   const options = {
-  //     strings: ['Hi, I am Shubh....', 'Check out my portfolio...'],
-  //     typeSpeed: 50,
-  //     backSpeed: 50,
-  //     loop: true,
-  //   };
-
-  //   const typed = new Typed(typedRef.current, options);
-
-  //   return () => {
-  //     typed.destroy();
-  //   };
-  // }, []);
-
   const typedRef = useRef(null);
 
   useEffect(() => {
@@ -67,14 +46,6 @@ const ResumeSection = () => {
           <span ref={typedRef} style={{ color: "white" }}></span>
         </h1>
       </header>
-
-      {/* <section className="section image-section">
-          <div className="image-overlay"></div>
-          <div className="image-section-content">
-            <h2></h2>
-            <p>Experienced Software Engineer with a passion for coding and problem-solving.</p>
-          </div>
-        </section> */}
       <section className="section">
         <h2 className="section-title">Profile</h2>
         <p
