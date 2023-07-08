@@ -1,0 +1,304 @@
+/* ResumeWebsite.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    /* background-image: url('/home/shubh/Desktop/React/portfolio/src/images/background4.png'); */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .section {
+    background-color: #28283c;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    padding: 40px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .section-content {
+    line-height: 1.6;
+    color: white;
+  }
+  
+  .image-section {
+    position: relative;
+    height: 400px;
+    background-image: url('/home/shubh/Desktop/React/reactnewsapp/src/images/profile_back.avif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+  }
+  
+  .image-section-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .image-section-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .image-section-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .timeline {
+    margin-top: 40px;
+    color: white;
+  }
+  
+  .timeline-item {
+    margin-bottom: 40px;
+  }
+  
+  .timeline-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .timeline-item p {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .timeline-item ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .timeline-item ul li {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .education-item {
+    margin-top: 40px;
+  }
+  
+  .education-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .education-item p {
+    font-size: 18px;
+    color: white;
+  }
+  .education-item ul li{
+    color: white;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .skills-item {
+    flex-basis: 25%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skills-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .skills-item p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .skills-item:hover img {
+    transform: scale(1.2);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+  }
+  
+  footer h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .contact-info {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+
+  .typing-effect-container {
+    text-align: center; /* Center the typing effect */
+    padding: 40px 0; /* Add spacing around the typing effect */
+  }
+  
+  .typing-effect {
+    color: #333; /* Set the text color */
+    font-size: 32px; /* Adjust the font size */
+    font-weight: bold; /* Set the font weight */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+  }
+
+
+.timeline-item  ul li {
+    color: white; /* Change to your desired color */
+  }
+
+  /* .section {
+    transition: transform 1s ease-in-out;
+  }
+  
+  .section:hover {
+    transform: scale(1.2);
+  } */
+
+  .parallax-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  li {
+    white-space: normal;
+    word-wrap: break-word;
+    /* or */
+    /* overflow-wrap: break-word; */
+  }
+
+  .project-item h3{
+    color: white;
+  }
+
+  .project-item ul li{
+    color: white;
+  }
+
+  .project-item img{
+    /* width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 130px; */
+    max-width: 100%;
+    position: inherit;
+    height: auto;
+  }
+
+  .interest-item h3{
+    color: white;
+  }
+
+  .interest-item ul li{
+    color: white;
+  }
+
+  .interest-item ul img{
+    @media(max-width: 1200px){
+      
+      width: 40px;
+      height: 40px;
+      left: 540px;
+      top: 2210px;
+      position: absolute;
+    }
+    @media(min-width: 1200px ) and (max-width: 1600px) {
+      width: 20px;
+      height: 20px;
+      left: 540px;
+      top: 2210px;
+      position: absolute;
+    }
+
+  }
+
+  .interest-item2 ul img{
+
+    @media(max-width: 1200px){
+      width: 20px;
+      height: 20px;
+      left: 510px;
+      top: 2310px;
+      position: absolute;
+    }
+
+    @media(min-width: 1200px ) and (max-width: 1600px) {
+      width: 35px;
+      height: 35px;
+      left: 610px;
+      top: 2360px;
+      position: absolute; 
+    }
+  }
+
+  .interest-item2 h3{
+    color: white;
+  }
+
+  .interest-item2 ul li{
+    color: white;
+  }
