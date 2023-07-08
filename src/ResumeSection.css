@@ -54,7 +54,7 @@ body {
   .image-section {
     position: relative;
     height: 400px;
-    background-image: url('/home/shubh/Desktop/React/reactnewsapp/src/images/profile_back.avif');
+    /* background-image: url('/home/shubh/Desktop/React/reactnewsapp/src/images/profile_back.avif'); */
     background-size: cover;
     background-position: center;
     border-radius: 8px;
