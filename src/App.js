@@ -2,9 +2,9 @@ import "./App.css";
 import { useEffect, useRef } from "react";
 import ResumeSection from "./components/ResumeSection";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import layer7 from "/home/shubh/Desktop/React/portfolio/src/images/video1.mp4";
-import layer6 from "/home/shubh/Desktop/React/portfolio/src/images/rocket.gif";
-import Typed from "typed.js";
+import layer7 from "./images/video1.mp4";
+import layer6 from "./images/rocket.gif";
+import Typed from "typed.js";                                                                                               
 
 function App() {
   const typedRef = useRef(null);
